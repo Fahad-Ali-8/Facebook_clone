@@ -1,0 +1,40 @@
+.ads-container{
+    position: relative;
+    top: -350px;
+    right: -1020px;    
+}
+
+.sponserd{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+
+.ad-1-container{
+    display: flex;
+}
+
+.ad-2-container{
+    display: flex;
+    margin-top: 10px;
+}
+.ad-1-picture,
+.ad-2-picture{
+    height: 110px;
+    border-radius: 7px;
+}
+
+.ad-1-text,
+.ad-2-text{
+    font-size: 14px;
+    font-family: Arial;    
+    margin-left: 15px;
+}
+.ad-1-text-2,
+.ad-2-text-2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    color: gray;
+}

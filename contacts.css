@@ -1,0 +1,51 @@
+.contacts-container{
+    position: relative;
+    top: -320px;
+    left: 1020px;
+}
+
+.contact-header{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(63, 63, 63);
+    width: 270px;
+}
+.contact-text{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+}
+.contact-search-icon{
+    height: 23px;
+    margin-left: 140px;
+}
+.contact-menu-icon{
+    height: 20px;
+    margin-left: 20px;
+}
+
+
+
+.contact-1,
+.contact-2,
+.contact-3,
+.contact-4,
+.contact-5,
+.contact-6{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+
+.contact-1-picture,
+.contact-2-picture,
+.contact-3-picture,
+.contact-4-picture,
+.contact-5-picture,
+.contact-6-picture{
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}

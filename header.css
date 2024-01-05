@@ -3,31 +3,163 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 50px;
     background-color: rgb(255, 255, 255);
-    
+    box-shadow: 20px 0px 2px rgb(75, 75, 75);
+    z-index: 1;
 }
 
 .section-1{
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .facebook-icon{
-    
+    height: 45px;
+    margin-top: 2px;
 }
 
 .search-bar{
-    height: 30px;
-    width: 130px;
+    height:37px;
+    width: 200px;
+    position: fixed;
+    top: 6px;
+    left: 70px;
+    padding-left: 40px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .search-icon{
-    height: 30px;
+    height: 25px;
     position: fixed;
-    top: 30px;
-    left: 60px;
+    top: 14px;
+    left: 80px;
 }
+
+
+
+
+
+
+
+
+
+.section-2{
+    position: fixed;
+    top: 15px;
+    left: 480px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.home-icon{
+    height: 23px;
+}
+
+.friend-icon{
+    height: 25px;
+}
+
+.Videos-icon-container{
+    position: relative;
+}
+.Videos-icon-tooltip{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: -5px;
+    right: -10px;
+    border-radius: 10px;
+    padding: 3px 3px 2px 3px;
+    color: white;
+    font-size: 12px;
+}
+
+.video-icon{
+    height: 25px;
+}
+
+.games-icon{
+    height: 25px;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+.section-3{
+    position: fixed;
+    top: 7px; 
+    right: 30px;
+    left: 1120px;  
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+
+.menu-icon-container{
+    background-color: rgb(225, 225, 225);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 5px 2px 1px 6px;
+    margin-left: -10px;
+}
+
+.message-icon-container{
+    background-color: rgb(225, 225, 225);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px 0px 6px;
+    margin-right: -50px;
+}
+
+.notification-icon-container{
+    position: absolute;
+    background-color: rgb(225, 225, 225);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px 0px 6px;
+    margin-left: 40px;
+}
+
+
+
+
+.menu-icon{
+    height: 25px;
+}
+
+.message-icon{
+    height: 23px;
+}
+.notification-icon{
+    height: 23px;
+}
+.notification-icon-tooltip{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: -5px;
+    right: -10px;
+    border-radius: 10px;
+    padding: 3px 4px 2px 3px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-picture{
+    height: 37px;
+    border-radius: 50%;
+}
+
+
+
