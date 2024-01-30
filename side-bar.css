@@ -1,0 +1,71 @@
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-bar{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 300px;
+    padding-top: 10px;
+    background-color: rgb(235, 235, 235)
+}
+
+.side-bar-profile-picture-container,
+.friends-icon-container,
+.market-place-icon-container,
+.memories-icon-container,
+.saved-icon-container,
+.groups-icon-container,
+.videos-icon-container,
+.events-icon-container,
+.ads-manager-icon-container,
+.fundraisers-icon-container,
+.blood-donation-icon-container,
+.climate-science-icon-container{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;    
+}
+
+
+.side-bar-profile-picture{
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.side-bar-profile-picture,
+.friends-icon,
+.market-place-icon,
+.memories-icon,
+.saved-icon,
+.groups-icon,
+.videos-icon,
+.events-icon,
+.ads-manager-icon,
+.fundraisers-icon,
+.blood-donation-icon,
+.climate-science-icon{
+    height: 30px;
+}
+
+
+.side-bar-profile-text,
+.friends-icon-text,
+.market-place-icon-text,
+.memories-icon-text,
+.saved-icon-text,
+.groups-icon-text,
+.videos-icon-text,
+.events-icon-text,
+.ads-manager-icon-text,
+.fundraisers-icon-text,
+.blood-donation-icon-text,
+.climate-science-icon-text{
+    margin-left: 10px;
+    font-weight: 500;
+}
